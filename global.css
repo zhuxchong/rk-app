@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  /* Mobile Typography Variants */
+
+  /* H1 Variants - Stolzl Bold */
+  .text-h1-34 {
+    @apply font-stolzl text-[34px] font-bold leading-[52px];
+  }
+
+  .text-h1-32 {
+    @apply font-stolzl text-[32px] font-bold leading-[44px];
+  }
+
+  /* H2 Variants - Stolzl Medium */
+  .text-h2-28 {
+    @apply font-stolzl text-[28px] font-medium leading-[36px];
+  }
+
+  .text-h2-24 {
+    @apply font-stolzl text-[24px] font-medium leading-[32px];
+  }
+
+  /* H3 Variants - Stolzl Medium */
+  .text-h3-24 {
+    @apply font-stolzl text-[24px] font-medium leading-[32px];
+  }
+
+  .text-h3-20 {
+    @apply font-stolzl text-[20px] font-medium leading-[28px];
+  }
+
+  /* H4 Variants - Stolzl */
+  .text-h4-18-bold {
+    @apply font-stolzl text-[18px] font-bold leading-[24px];
+  }
+
+  .text-h4-18 {
+    @apply font-stolzl text-[18px] font-normal leading-[24px];
+  }
+
+  .text-h4-16 {
+    @apply font-stolzl text-[16px] font-medium leading-[28px];
+  }
+
+  /* Body Variants - Inter */
+  .text-body-16 {
+    @apply font-inter text-[16px] font-normal leading-[24px];
+  }
+
+  .text-body-16-bold {
+    @apply font-inter text-[16px] font-bold leading-[24px];
+  }
+
+  /* Small Variants - Inter */
+  .text-small-14 {
+    @apply font-inter text-[14px] font-normal leading-[20px];
+  }
+
+  .text-small-14-bold {
+    @apply font-inter text-[14px] font-bold leading-[20px];
+  }
+}
